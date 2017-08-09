@@ -9,3 +9,5 @@ exports_image_pdf
 * https://segmentfault.com/a/1190000008320433
 * http://blog.csdn.net/pwc1996/article/details/56675541
 * http://www.cnblogs.com/SWSHBON/p/5688204.html
+## 截图支持svg
+* https://segmentfault.com/a/1190000008320433
