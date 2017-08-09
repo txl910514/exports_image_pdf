@@ -6,3 +6,6 @@ exports_image_pdf
 * https://github.com/niklasvh/html2canvas
 * https://html2canvas.hertzen.com/documentation.html
 * https://github.com/linwalker/render-html-to-pdf
+* https://segmentfault.com/a/1190000008320433
+* http://blog.csdn.net/pwc1996/article/details/56675541
+* http://www.cnblogs.com/SWSHBON/p/5688204.html
