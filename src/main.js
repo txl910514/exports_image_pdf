@@ -12,6 +12,7 @@ for (let i= 1; i < 16; i++) {
 }
 
 $('.export').click(function () {
-  exportSub.export_image(export_con)
+  // exportSub.export_image(export_con)
   // exportSub.export_pdf(export_con)
+  exportSub.export_htmlPdf($(export_con))
 })

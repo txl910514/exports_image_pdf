@@ -2,7 +2,7 @@
  * Created by txl-pc on 2017/8/8.
  */
 import $ from 'jquery'
-import html2canvas from 'html2canvas'
+// import html2canvas from 'html2canvas'
 import jsPDF from 'jspdf'
 
 export const export_image = (element) => {
@@ -83,5 +83,18 @@ export const export_pdf = (element) => {
 
       pdf.save('content.pdf');
     }
+  });
+}
+
+export const export_htmlPdf = (element) => {
+  console.log(element)
+  var pdf = new jsPDF('p', 'pt', 'a4');
+  var options = {
+    pagesplit: true
+  };
+
+  pdf.addHTML(element, options, function()
+  {
+    pdf.save("test_chart.pdf");
   });
 }

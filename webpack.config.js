@@ -73,9 +73,14 @@ module.exports = {
     }
   },
   plugins: [
+    new webpack.ProvidePlugin({
+      html2canvas:"html2canvas",
+      "window.html2canvas":"html2canvas"
+    }),
     new HtmlWebpackPlugin({
       title:"main",
       template: path.resolve(__dirname, './index.html'),
+      inject: true
     }),
     new ExtractTextPlugin("styles.css"),
     new OpenBrowserPlugin({url: 'http://localhost:5000/'}),
